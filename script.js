@@ -8,7 +8,7 @@ form.addEventListener("submit",(e)=>{
 	e.preventDefault();
 	const selectedColor=colorInput.value;
 	const blockNumber=blockInput.value.trim();
-	document.querySelectorAll(".grid-item").forEach(block => {
+	document.querySelectorAll(".grid-item").forEach(block =>{
         block.style.backgroundColor = "transparent";
     });
 
